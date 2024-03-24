@@ -1,0 +1,114 @@
+.main{
+    box-shadow: #000000 1px 1px 10px;
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 52% 48%;
+}
+
+.main-div{
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 300px; 
+    height: 500px; 
+    overflow: auto; 
+    padding-right: 590px; 
+
+}
+
+.main-div h1{
+    font-size: larger;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    
+  }
+  
+.input-group div {
+    margin-right: 20px; 
+  }
+
+.input-group div input {
+    border: none;
+    border-bottom: gray 1px solid;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+  }
+
+.main-img img{
+    width: 98%;
+    height: 550px;
+    margin-right: 5px;
+}
+
+.input-group1{
+    margin-top: 20px;
+}
+
+.input-group1 label{
+    font-weight: 1000px;
+    font-size: large;
+}
+
+.input-group1 select{
+    margin-top: 15px ;
+    font-size: medium;
+}
+
+#district {
+    width: 100px; 
+    height: 35px
+}
+
+.test-type h1.h{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.test-type p{
+    margin-top: 0%;
+    font-size: medium;
+}
+
+.test-type1 h1{
+    font-size: 25px;
+}
+
+.test-type1 p{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.test-type input{
+    font-size: large;
+    margin-bottom:10px ;
+}
+  
+.test-type1 input{
+    padding: 10px;
+}
+
+.test-type1 input.type{
+    margin-bottom: 30px;
+}
+
+.save{
+    text-align: center ;
+}
+
+.save button{
+    background-color: blueviolet;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    font-size: large;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="labtest.css">
+    <title>Lab-Test</title>
+</head>
+<body>
+    <div class="head">
+        <div class="main">
+            <div class="main-div">
+                <form action="#" >
+                    <h1>1. Your Contact Details</h1>
+                    <div class="input-group">
+                        <div>
+                        <input type="text" id="fullname" placeholder="Full Name">
+                        </div>
+                        <div>
+                        <input type="text" id="id" placeholder="Patient Id if exists">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div>
+                        <input type="number" id="contact" placeholder="Contact Number">
+                        </div>
+                        <div>
+                        <input type="email" id="email" placeholder="Email Id">
+                        </div>
+                    </div>
+
+                    <h1>2. Address</h1>
+                    <div class="input-group">
+                        <div>
+                        <input type="text" id="hnumber" placeholder="House Number">
+                        </div>
+                        <div>
+                        <input type="text" id="street" placeholder="Street">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div>
+                        <input type="text" id="area" placeholder="Area">
+                        </div>
+                    </div>
+                    <div class="input-group1">
+                        <label>District</label><Br>
+                        <select name="District" id="district">
+                        <option value="Choose">Choose</option>
+                        <option value="Ranipet">Ranipet</option>
+                        <option value="Vellore">Vellore</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kanchipuram">Kanchipuram</option>
+                        <option value="Coimbatore">Coimbatore</option>
+                        <option value="Madurai">Madurai</option>
+                        <option value="Viluppuram">Viluppuram</option>
+                        </select>
+                    </div>
+                    <h1>3. Choose the Test Type</h1>
+                    <div class="test-type">
+                        <p>(Check at least one box without fail)</p>
+                        <input type="checkbox" name="type">CBC <br>
+                        <input type="checkbox" name="type">Complete Urine <br>
+                        <input type="checkbox" name="type">Lipid Profile <br>
+                        <input type="checkbox" name="type">Thyroid Stimulating Hormone (TSH) <br>
+                        <input type="checkbox" name="type">Glucose Test
+                    </div>
+                    <div class="test-type">
+                    <h1 class="h">4. Do you want a hard copy of the report also?</h1>
+                        <input type="radio" name="copy">Yes 
+                        <input type="radio" name="copy">No
+                    </div>
+                    <div class="test-type1">
+                        <p>5. Select Your Comfortable Date and Time</p>
+                        <input type="date" name="date" /> <br>
+                        <input class="type" type="time" name="time" />
+                    </div>
+                </form>
+            </div>
+            <div class="main-img">
+                <img src="Image\Lab-test\lab-test.jpg" />  
+            </div>
+        </div>
+        <div class="save">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
